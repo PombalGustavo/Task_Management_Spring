@@ -80,3 +80,15 @@ INSERT INTO TO_DO (TITLE, DEADLINE, CREATED_AT) VALUES('ESTUDAR SPRING', '2023-1
 2025-02-22 19:48:00.337659-03:00 jdbc[13]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO TO_DO (TITLE, DEADLINE, CREATED_AT) VALUES('ESTUDAR SPRING', '2023-10-10', [*]'2023-10-11)"; SQL statement:
 INSERT INTO TO_DO (TITLE, DEADLINE, CREATED_AT) VALUES('ESTUDAR SPRING', '2023-10-10', '2023-10-11) [42000-232]
+2025-02-23 14:55:20.977865-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Delete [*]* from TO_DO"; expected "identifier"; SQL statement:
+Delete * from TO_DO [42001-232]
+2025-02-23 14:55:29.263413-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Delete [*]* FROM TO_DO"; expected "identifier"; SQL statement:
+Delete * FROM TO_DO [42001-232]
+2025-02-23 14:55:39.383732-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM TO_DO"; expected "identifier"; SQL statement:
+DELETE * FROM TO_DO [42001-232]
+2025-02-23 15:04:05.827660-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO TO_DO(TITLE, CREATED_AT, DEADLINE, FINISHED_AT) VALUES ('Estudar thymeleaf', '2025-02-23', '2025-04-02', [*]'2025-02-23)"; SQL statement:
+INSERT INTO TO_DO(TITLE, CREATED_AT, DEADLINE, FINISHED_AT) VALUES ('Estudar thymeleaf', '2025-02-23', '2025-04-02', '2025-02-23) [42000-232]
